@@ -4,7 +4,7 @@ These our the
 
 In the tests directory you can drop in here any one
 of the tests from 
-[here](https://github.com/ron-rs/ron/tests) 
+[here](https://github.com/ron-rs/ron/tree/master/tests) 
 and they should work just fine.
 The one test in this repo will serve as a model from
 which you can tweak and replace without checking in any
