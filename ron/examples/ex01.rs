@@ -1,4 +1,4 @@
-/// This is 
+/// This is
 /// https://github.com/ron-rs/ron/blob/master/examples/encode.rs
 use std::{collections::HashMap, iter::FromIterator};
 

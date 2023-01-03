@@ -8,11 +8,11 @@ fn main() {
 
     let de: [i32; 3] = ron::from_str(&ser).unwrap();
     assert_eq!(de, array);
-    println!("{:?}",de);
-    
+    println!("{:?}", de);
+
     let value: Value = ron::from_str(&ser).unwrap();
-    println!("{:?}",value);
-    
+    println!("{:?}", value);
+
     assert_eq!(
         value,
         Value::Seq(vec![
