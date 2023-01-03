@@ -9,7 +9,7 @@ struct Point {
 fn main() {
     let serialized = "(x:1)";
 
-    // Convert the JSON string back to a Point.
+    // Convert the ron string back to a Point.
     let deserialized: Point = ron::from_str(&serialized).unwrap();
 
     // Prints deserialized = Point { x: 1}
