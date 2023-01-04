@@ -11,7 +11,7 @@ fn main() {
     // Convert the Point to a JSON string.
     let serialized = ron::to_string(&point).unwrap();
 
-    // Prints serialized = {"x":1}
+    // Prints serialized = (x:1)
     println!("serialized = {}", serialized);
 
     // Convert the JSON string back to a Point.

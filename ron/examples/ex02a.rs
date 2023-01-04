@@ -9,5 +9,8 @@ fn main() {
     let point = Point { x: 1 };
 
     // Convert the Point to a JSON string.
-    ron::to_string(&point).unwrap();
+    let serialized = ron::to_string(&point).unwrap();
+
+    // Prints serialized = (x:1)
+    println!("serialized = {:?}", serialized);
 }
