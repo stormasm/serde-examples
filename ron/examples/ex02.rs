@@ -2,11 +2,15 @@ use serde::{Deserialize, Serialize};
 
 #[derive(Serialize, Deserialize, Debug)]
 struct Point {
-    x: i32,
+    x: String,
+    y: i32,
 }
 
 fn main() {
-    let point = Point { x: 1 };
+    let point = Point {
+        x: "sam".to_string(),
+        y: 444,
+    };
 
     // Convert the Point to a JSON string.
     let serialized = ron::to_string(&point).unwrap();
